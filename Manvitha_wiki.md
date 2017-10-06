@@ -6,7 +6,7 @@ I am yet to decide on the Design Pattern.
 I am responsible for completing the Use Case diagrams.
 
 ## XP Core Value - Feedback:
-### Week #2<br>
+### Week #3<br>
 The team gave inputs on game design and we chose an infinite loop game with levels. THe feedback from all the team members was taken into consideration for selecting the game design.
 
 ### Week #2<br>
