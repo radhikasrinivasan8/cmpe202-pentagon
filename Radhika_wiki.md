@@ -1,4 +1,11 @@
-
+### WEEK-3<br>
+####  XP Core Value - Communication</br>
+* The team met face to face and discussed the ideas of achieving different background designs aligning with the game theme. We shared our ideas and criticized each one's idea to finalized on a continuous theme for the background. 
+* The meeting was very interactive as each of us had several ideas and questions while trying to negotiate our own idea.
+####  Design Pattern
+I am yet to decide on the design pattern
+####  UML Diagrams
+I am responsible for implementing WIREFRAME diagrams  </br>
 
 ### WEEK-2<br>
 ####  XP Core Value - Communication</br>
