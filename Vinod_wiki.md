@@ -1,4 +1,4 @@
-## Week 1: 9/21/2017* 
+## Week 1:
 ### Core Value: Eliminating Waste
 
 * We researched for high graphic games which is not necessary for this project. We then came to know that  low graphic game would do good.
@@ -12,3 +12,7 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Team considered MelonJS game engine and gone through it. Later team finalized greenfoot for game development. 
+## Week 3:
+### Eliminating Waste:
+
+* Team brought up many images for setting back-ground to the game. Eliminated some images which team felt are not feasible for the game. 
