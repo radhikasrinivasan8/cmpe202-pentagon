@@ -17,6 +17,11 @@ I am responsible for completing the User Story with BDD Scenarios.
 1) Everyone showed on time for the meetings.
 2) Each team member gave their opinions on the game engine and after some healthy discussions finalized to Greenfoot.
 
+### week3
+1) The team had a meeting on Thursday.
+2)Everyone gave their ideas about the tasks and got assigned.
+3)Not only during team meetings even in slack Everyone gave their thoughts and actively participated.
+ 4)The team discussed on the Game background  and Everyone gave their ideas.
  
 
 
