@@ -1,0 +1,108 @@
+
+
+
+import greenfoot.*;
+ 
+public class TitleScreen extends World
+{
+    private int counter;
+ 
+    public TitleScreen()
+    {
+        super(600, 400, 1);
+    }
+ 
+    public void act()
+    {
+        if (++counter == 200) Greenfoot.setWorld(new GameWorld());
+    }
+}
+
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ 
+/**
+ * Write a description of class TitleScreen here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class TitleScreen extends World
+{
+ 
+    /**
+     * Constructor for objects of class TitleScreen.
+     * 
+     */
+    public TitleScreen()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1); 
+        Greenfoot.start();
+    }
+    public void act()
+    {
+        if (Greenfoot.isKeyDown("space")) Greenfoot.setWorld(new MainWorld());
+    }
+}
+
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ 
+/**
+ * Write a description of class TitleScreen here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class TitleScreen extends World
+{
+    private boolean TwoPlayer = false;
+     
+    PlayButton play = new PlayButton();
+    PlayersONE One = new PlayersONE();
+    PlayersTWO two = new PlayersTWO();
+    /**
+     * Constructor for objects of class TitleScreen.
+     * 
+     */
+    public TitleScreen()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(450, 300, 1);
+        prepare();
+         
+    }
+     
+     
+    public void act()
+    {
+       if (One.getOnePlayer()== true){
+            two.setPlayers(false);
+            TwoPlayer = false;
+        }
+         
+       if (two.getTwoPlayers() == true){
+            One.setPlayers(false);
+            TwoPlayer = true;
+        } 
+         
+       if (play.getStart() == true && One.getOnePlayer() == true || two.getTwoPlayers() == true){
+             
+            Greenfoot.setWorld(new UnderWater(TwoPlayer));
+            Greenfoot.stop();
+        }
+    }
+    
+     
+    private void prepare()
+    {
+        //PLayers one
+        addObject(One, 54, 30);
+        //Player 2
+        addObject(two, 192, 30);
+        //Play button
+        addObject(play, 123, 72);
+    }
+     
+     
+     
+}
