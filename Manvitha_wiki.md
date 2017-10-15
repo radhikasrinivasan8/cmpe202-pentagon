@@ -6,6 +6,9 @@ I am yet to decide on the Design Pattern.
 I am responsible for completing the Use Case diagrams.
 
 ## XP Core Value - Feedback:
+### Week #4<br>
+The team gave inputs on usecases and flow of the game. The first decided on some usecases, out of which some usecases were not feasible to implement in the time frame that we have. This was proposed by on the teammates, and this feedback was taken into consideration and we dropped some use cases.
+
 ### Week #3<br>
 The team gave inputs on game design and we chose an infinite loop game with levels. THe feedback from all the team members was taken into consideration for selecting the game design.
 
