@@ -1,5 +1,8 @@
 ### XP Core Value - Simplicity
 
+### Week #4<br>
+The team decided on the usecases and flow of the game this week. To maintain Simplicity in the implementation team decided not to have some usecases as they could not be implemented in the time frame. Taking the Simplicity of the game into consideration,team decided to drop those usecases.
+
 ### Week #3<br>
 This week, Team tried few samples and scenarios of greenfoot such as backgrounTd for the game and further discussed on the feasible bakgrounds. Team decided to implement a simple background that can align with game design and Theme.    
 
