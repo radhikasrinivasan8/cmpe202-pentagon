@@ -1,0 +1,11 @@
+BDD aims to explain the behavior of a system in easy to understand language (Reference 1). Using BDD and Scenarios allows requirements and tests to utilize the same approach in documenting system behavior. In some cases, the Scenarios that are written can be converted into Automated Tests.
+A user story is a short description of something that your customer will do when they come to your website or use your application/software,  focused on the value or result they get from doing this thing. They are written from the point of view of a person using your website or application, and written in the language that your customers would use.
+Principles of BDD
+BDD encourages simple languages to be used across teams, known as ubiquitous languages.
+The simple and easy to use language should be used in the way the tests themselves are written, so that in theory, a business person can read a test and understand what it is testing.
+Tests are often written from the customer’s point of view; the focus is on the customers and the users who are interacting with the product
+Benefits of BDD
+Simple language – the straightforward language is usable/understandable, not only by domain experts, but also by every member of the team.
+Focus – BDD helps teams focus on a product’s behavioral elements rather than focusing on testing the technical implementation in isolation through individual units. This subtle, but important shift, means that everyone is focused on what the behavior of the product should be.
+Using Scenarios – BDD is designed to speed up the development process. Everyone involved in development relies upon the same scenarios. Scenarios are requirements, acceptance criteria, test cases, and test scripts all in one; there is no need to write any other artifact.
+Efficiency – BDD frameworks make it easy to turn scenarios into automated tests. The steps are already given by the scenarios – the automation engineer simply needs to write a method/function to perform each step’s operations.
