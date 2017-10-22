@@ -1,0 +1,8 @@
+//To make game character know that he isn't alowed to move to a position where a obstacle is placed.
+//If you change your setLocation method like this you can't move through the obstacles.
+
+public void setLocation(int x, int y) {
+    if (getWorld().getObjectsAt(x, y, Obstacle.class).isEmpty()) {
+        super.setLocation(x, y);
+    }
+}
