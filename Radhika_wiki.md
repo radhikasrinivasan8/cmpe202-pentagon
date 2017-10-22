@@ -1,5 +1,5 @@
 
-### WEEK-3<br>
+### WEEK-4<br>
 ####  XP Core Value - Communication</br>
 The team met and discussed the different use cases and flow of the game. The team also provided suggestions on implementing certain use cases and upon valuing each one's suggestions, we added/ deleted certain use cases.
 
