@@ -1,0 +1,28 @@
+Sequence diagram shows different parts of a system work in a ‘sequence’ to get something done.
+
+Lifeline Notation: 
+
+A sequence diagram is made up of several of these lifeline notations that should be arranged horizontally across the top of the diagram.
+No two lifeline notations should overlap each other.They represent the different objects or parts that interact with each other in the system during the sequence.
+
+Activation bar: 
+
+Activation bar is the box placed on the lifeline.  It is used to indicate that an object is active (or instantiated) during an interaction
+between two objects. The length of the rectangle indicates the duration of the objects staying active.
+
+Message Arrows:
+
+An arrow from the Message Caller to the Message Receiver specifies a message in a sequence diagram. A message can flow in any direction
+from left to right, right to left or back to the Message Caller itself. While you can describe the message being sent from one object to 
+the other on the arrow, with different arrowheads you can indicate the type of message being sent or received. When an object sends a 
+message to itself, it is called a reflexive message. It is indicated with a message arrow that start and ends at the same lifeline like 
+shown in the example below.
+
+Comment:
+
+UML diagrams generally permit the annotation of comments in all UML diagram types. The comment object is a rectangle with a folded-over corner
+as shown below. The comment can be linked to the related object with a dashed line.    
+
+
+
+Reference: http://creately.com/blog/diagrams/sequence-diagram-tutorial/
