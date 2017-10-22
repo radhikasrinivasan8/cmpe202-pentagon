@@ -25,10 +25,10 @@ I am responsible for completing the User Story with BDD Scenarios.
  
 
 ### week4
-1) The team had a meeting on Wednesday.
-2)Everyone gave their ideas about the UI of the game and game Obstacles started implmenting them.
-3)Not only during team meetings even in slack Everyone gave their thoughts and actively participated.
- 4)The team discussed on the User story and Activity diagram where everyone involved.
+1) The team had a meeting on Wednesday.</br>
+2)Everyone gave their ideas about the UI of the game and game Obstacles started implmenting them.</br>
+3)Not only during team meetings even in slack Everyone gave their thoughts and actively participated.</br>
+4)The team discussed on the User story and Activity diagram where everyone involved.</br>
  
 
 
