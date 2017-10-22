@@ -16,3 +16,7 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Team brought up many images for setting back-ground to the game. Eliminated some images which team felt are not feasible for the game. 
+## Week 4:
+### Eliminating Waste:
+
+* Some usecases are eliminated considering the timely delivery of the project. 
