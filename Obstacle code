@@ -6,3 +6,16 @@ public void setLocation(int x, int y) {
         super.setLocation(x, y);
     }
 }
+
+
+UPDATED:
+public void setLocation(int x, int y)
+{
+    int oldX = getX();
+    int oldY = getY();
+    super.setLocation(x, y);
+    if(!getIntersectingObjects(Obstacle.class).isEmpty())
+    {
+        super.setLocation(oldX, oldY);
+    }
+}
