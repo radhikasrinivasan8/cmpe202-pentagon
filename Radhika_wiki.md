@@ -1,3 +1,9 @@
+
+### WEEK-3<br>
+####  XP Core Value - Communication</br>
+The team met and discussed the different use cases and flow of the game. The team also provided suggestions on implementing certain use cases and upon valuing each one's suggestions, we added/ deleted certain use cases.
+
+
 ### WEEK-3<br>
 ####  XP Core Value - Communication</br>
 * The team met face to face and discussed the ideas of achieving different background designs aligning with the game theme. We shared our ideas and criticized each one's idea to finalized on a continuous theme for the background. 
