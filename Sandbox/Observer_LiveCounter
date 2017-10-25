@@ -1,4 +1,4 @@
-public class Lives implements IObserveGameStatus {
+public class Lives implements GameStatus {
 	private int lives;
 
 	public Lives() {
