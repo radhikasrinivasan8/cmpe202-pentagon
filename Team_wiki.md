@@ -16,6 +16,9 @@ Link to Task Board:<br>
 Link to Cumulative Flow Diagram/Burndown Chart:<br>
 <a>https://docs.google.com/a/sjsu.edu/spreadsheets/d/1O6AGMtYrm0quf3eVj-NHBTsAOCF2WdPQqhrM8M2Bbes/edit?usp=sharing</a> 
 
+Link to Sprint Task Sheet
+<a>https://docs.google.com/spreadsheets/d/18T7GwHDkaM9hpLaIelEvtVMzEqn0uburhetISqvfaNY/edit?ts=59f119c4#gid=0</a>
+
 
 Agile Practices Team is Adopting:<br>
 * Kanban Board.
