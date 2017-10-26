@@ -1,6 +1,6 @@
 
 ## Design Pattern:
-I am yet to decide on the Design Pattern.
+I am planning on implementing State pattern and Observer Design Pattern.
 
 ## UML Diagram:
 I am responsible for completing the Use Case diagrams and use case specification.
