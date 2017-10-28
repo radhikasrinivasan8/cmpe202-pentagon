@@ -1,3 +1,13 @@
+####  Design Pattern
+I am responsible for implementing the Factory Pattern and Observer Pattern
+
+####  UML Diagrams
+I am responsible for implementing WIREFRAME diagrams  </br>
+
+### WEEK-5<br>
+####  XP Core Value - Communication</br>
+
+This week the team met and discussed on the different design patterns that each one would implement. We came upto the design patterns where each team member tried to identify the design pattern that could be implemented for each of the use cases. Each team member gave their suggestion and ideas as to how the design pattern could be implemented for the use case.
 
 ### WEEK-4<br>
 ####  XP Core Value - Communication</br>
@@ -8,10 +18,7 @@ The team met and discussed the different use cases and flow of the game. The tea
 ####  XP Core Value - Communication</br>
 * The team met face to face and discussed the ideas of achieving different background designs aligning with the game theme. We shared our ideas and criticized each one's idea to finalized on a continuous theme for the background. 
 * The meeting was very interactive as each of us had several ideas and questions while trying to negotiate our own idea.
-####  Design Pattern
-I am yet to decide on the design pattern
-####  UML Diagrams
-I am responsible for implementing WIREFRAME diagrams  </br>
+
 
 ### WEEK-2<br>
 ####  XP Core Value - Communication</br>
