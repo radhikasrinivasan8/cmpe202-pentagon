@@ -1,5 +1,5 @@
 ####  Design Pattern
-I am responsible for implementing the Factory Pattern and Observer Pattern
+I am responsible for implementing the Factory Pattern
 
 ####  UML Diagrams
 I am responsible for implementing WIREFRAME diagrams  </br>
