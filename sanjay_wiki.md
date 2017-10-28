@@ -7,7 +7,7 @@
 5)	If any of the team members are being silent without sharing his/her thoughts others making the team member to engage in the conversation or asking them to give their opinions.
 
 ## Design Pattern:
-I Will decide on a Design Pattern after Design Pattern Class.
+I Will be implmenting observer design pattern for scoreboard in the game.
 
 ## UML Diagram:
 I am responsible for completing the User Story with BDD Scenarios.
@@ -30,6 +30,11 @@ I am responsible for completing the User Story with BDD Scenarios.
 3)Not only during team meetings even in slack Everyone gave their thoughts and actively participated.</br>
 4)The team discussed on the User story and Activity diagram where everyone involved.</br>
  
+### week5
 
-
+1) The team had a meeting on Thursday .</br>
+2)Everyone gave their ideas about the Design patterns , assigned design pattern to each team member and how they would implement them.</br>
+3)Not only during team meetings even in whatsapp Everyone gave their thoughts and actively participated.</br>
+4)The team discussed on the various scenioros where design patterns can be implemented everyone gave their opinions.</br>
+5)Each team member gave their opinions on the scenioris where design patterns can be implemented even if it is NO in a positive intent with an explanation.
 
