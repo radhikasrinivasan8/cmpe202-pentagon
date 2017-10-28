@@ -22,7 +22,7 @@ This week, In order to keep the Game simple and avoid complexities in the implem
 
 
 ### Design Pattern:
-I Will finalise on a Design Pattern after Design Pattern Class .
+I Will be implementing Strategy Design Pattern in the game .
 
 ### UML Diagram:
 I am responsible for completing the Activity diagrams.
