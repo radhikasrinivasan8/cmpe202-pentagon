@@ -7,7 +7,7 @@ I am responsible for completing the Use Case diagrams and use case specification
 
 ## XP Core Value - Feedback:
 ### Week #5<br>
-This week the team has worked on chossing the design patterns to implement in the game. One of the challenges faced was to map which design patterns suits best to which problem. The team had discussion and each member gave feedback on the solution decided. The feedback from each of the team member was taken into consideration and implemented accordingly.
+This week the team has worked on choosing the design patterns to implement in the game. One of the challenges faced was to map which design patterns suits best to which problem. The team had discussion and each member gave feedback on the solution decided. The feedback from each of the team member was taken into consideration and implemented accordingly.
 
 ### Week #4<br>
 The team gave inputs on usecases and flow of the game. The first decided on some usecases, out of which some usecases were not feasible to implement in the time frame that we have. This was proposed by on the teammates, and this feedback was taken into consideration and we dropped some use cases. 
