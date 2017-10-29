@@ -20,3 +20,7 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Some usecases are eliminated considering the timely delivery of the project. 
+## Week 5:
+### Eliminating Waste:
+
+* Initially thought of different design patterns to implement the code but we came on for final 5 design pattern that make our code work.
