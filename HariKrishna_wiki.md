@@ -1,4 +1,13 @@
+### Design Pattern:
+I Will be implementing Strategy Design Pattern in the game .
+
+### UML Diagram:
+I am responsible for completing the Activity diagrams.
+
 ### XP Core Value - Simplicity
+
+### Week #5<br>
+This week the team has worked on choosing the design patterns to implement in the game. The team came up with several scenarious where design patterns could be implemented in the game and some of them were complicated.After further discussions team dediced not to have few patterns in order to keep the implementation simple and to have a working game with design patterns.
 
 ### Week #4<br>
 The team decided on the usecases and flow of the game this week. To maintain Simplicity in the implementation team decided not to have some usecases as they could not be implemented in the time frame. Taking the Simplicity of the game into consideration,team decided to drop those usecases.
@@ -19,10 +28,3 @@ This week, In order to keep the Game simple and avoid complexities in the implem
 
 * To keep the Game engine simple and avoid complexity in the project , the team decided not to use few Game engines.</br>
 
-
-
-### Design Pattern:
-I Will be implementing Strategy Design Pattern in the game .
-
-### UML Diagram:
-I am responsible for completing the Activity diagrams.
