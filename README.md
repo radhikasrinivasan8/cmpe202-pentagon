@@ -1,7 +1,8 @@
 
 # cmpe202-pentagon-Team 5 - project under construction.
 
-###Game Name : ##GoMerida!
+### Game Name : 
+# GoMerida!
 
 ### Member1 : Manvitha Challagundla
 ### Member2 : Sanjay Karnati
