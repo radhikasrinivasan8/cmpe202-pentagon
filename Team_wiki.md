@@ -13,7 +13,7 @@
 Link to Task Board:<br>
 <a>https://github.com/nguyensjsu/cmpe202-pentagon/projects/1</a>
 
-Link to Cumulative Flow Diagram/Burndown Chart:<br>
+Link to Cumulative Flow Diagram:<br>
 <a>https://docs.google.com/a/sjsu.edu/spreadsheets/d/1O6AGMtYrm0quf3eVj-NHBTsAOCF2WdPQqhrM8M2Bbes/edit?usp=sharing</a> 
 
 Link to Sprint Task Sheet
