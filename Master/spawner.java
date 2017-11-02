@@ -25,6 +25,7 @@ public class spawner extends Actor
        {
             myWorld m = (myWorld) getWorld();
             m.spawnSpikes();
+            m.moreDiamonds();
             if (difficulty>60)
             {
                 difficulty--;

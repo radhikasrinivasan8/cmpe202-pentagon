@@ -14,7 +14,8 @@ public class spike extends Objects
      */
     public void act() 
     {
-       moving();
-       despawning();
+        // Add your action code here.
+        moving();
+        despawning();
     }    
 }

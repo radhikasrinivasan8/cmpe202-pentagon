@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MeridaLostState
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MeridaLostState\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=brave
+comment1.target=MeridaLostState(Brave)
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment3.params=
+comment3.target=boolean\ isDead()
+comment4.params=
+comment4.target=void\ setState()
+comment5.params=
+comment5.target=void\ display()
+numComments=6

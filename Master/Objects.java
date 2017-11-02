@@ -19,6 +19,7 @@ public class Objects extends Actor
     {
         move(-2);
     }
+    
     public void despawning()
     {
         x=getX();
