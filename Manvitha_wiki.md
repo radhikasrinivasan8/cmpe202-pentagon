@@ -6,6 +6,10 @@ I am planning on implementing State pattern and Observer Design Pattern.
 I am responsible for completing the Use Case diagrams and use case specification.
 
 ## XP Core Value - Feedback:
+
+### Week #6<br>
+This week the team has worked on implementing a part of the design patterns and map it to the game. The team delivered a part of the functionality of the game and each team member reviewed the same and provided feedback on the different ways to refactor the code. Based on the feedback, the team worked on improvising the patterns accordingly.
+
 ### Week #5<br>
 This week the team has worked on choosing the design patterns to implement in the game. One of the challenges faced was to map which design patterns suits best to which problem. The team had discussion and each member gave feedback on the solution decided. The feedback from each of the team member was taken into consideration and implemented accordingly.
 
