@@ -6,6 +6,10 @@ I am responsible for completing the Activity diagrams.
 
 ### XP Core Value - Simplicity
 
+### Week #6<br>
+This week the team has worked on implementing design patterns and integrated code. The game functionality was discussed further and in order to keep the game simple suggestions were given to refactor the code.The team members decide to make the game simple and have a working game with design patterns.
+
+
 ### Week #5<br>
 This week the team has worked on choosing the design patterns to implement in the game. The team came up with several scenarious where design patterns could be implemented in the game and some of them were complicated.After further discussions team dediced not to have few patterns in order to keep the implementation simple and to have a working game with design patterns.
 
