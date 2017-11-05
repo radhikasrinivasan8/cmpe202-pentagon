@@ -7,6 +7,11 @@ I am responsible for implementing WIREFRAME diagrams  </br>
 ### WEEK-5<br>
 ####  XP Core Value - Communication</br>
 
+This week the team met and discussed how each of us implemented the design pattern and delivered the game functionality. We discussed what other design patterns could be implemented in the game. We also discussed new functionalities that could be implemented in the game.
+
+### WEEK-5<br>
+####  XP Core Value - Communication</br>
+
 This week the team met and discussed on the different design patterns that each one would implement. We came upto the design patterns where each team member tried to identify the design pattern that could be implemented for each of the use cases. Each team member gave their suggestion and ideas as to how the design pattern could be implemented for the use case.
 
 ### WEEK-4<br>
