@@ -38,3 +38,16 @@ I am responsible for completing the User Story with BDD Scenarios.
 4)The team discussed on the various scenioros where design patterns can be implemented everyone gave their opinions.</br>
 5)Each team member gave their opinions on the scenioris where design patterns can be implemented even if it is NO in a positive intent with an explanation.
 
+### week6
+1) The team had a meeting on Wednesday .</br>
+2)Each individual trying to implement the design pattern they have been assigned.</br>
+3)some of them already completed and updated in github.Each gave their opinions on the implemented code</br>
+4)The team discussed on the various scenioros where still any design patterns can be implemented everyone gave their opinions.</br>
+
+
+
+
+
+
+
+
