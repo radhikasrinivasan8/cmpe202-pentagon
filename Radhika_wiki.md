@@ -4,7 +4,7 @@ I am responsible for implementing the Factory Pattern
 ####  UML Diagrams
 I am responsible for implementing WIREFRAME diagrams  </br>
 
-### WEEK-5<br>
+### WEEK-6<br>
 ####  XP Core Value - Communication</br>
 
 This week the team met and discussed how each of us implemented the design pattern and delivered the game functionality. We discussed what other design patterns could be implemented in the game. We also discussed new functionalities that could be implemented in the game.
