@@ -46,7 +46,7 @@ I am responsible for completing the User Story with BDD Scenarios.
 
 
 
-
+IMPLEMENTED OBSERVER DESIGN PATTERN FOR SCOREBOARD IN THE GAME.
 
 
 
