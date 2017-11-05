@@ -24,3 +24,7 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Initially thought of different design patterns to implement the code but we came on for final 5 design pattern that make our code work.
+## Week 5:
+### Eliminating Waste:
+
+* Team thought of many design patterns to be included in the code but finalised on 5 design patterns with which we can implement the code easily and eliminated other design patterns as they are feasiblee with our code.
