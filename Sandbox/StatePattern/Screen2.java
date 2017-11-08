@@ -23,6 +23,6 @@ public class HumanDeadState implements iHumanState
     
     public void display()
     {
-        human.getWorld().addObject(new FinalBanner("gameover1.png"), 500, 125);
+        human.getWorld().addObject(new FinalBanner("gameover.png"), 500, 125);
     }
 }
