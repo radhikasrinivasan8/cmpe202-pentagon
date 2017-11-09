@@ -6,6 +6,9 @@ I am responsible for completing the Activity diagrams.
 
 ### XP Core Value - Simplicity
 
+### Week #7<br>
+This week the team has worked on implementing design patterns and integrated code.Team decided on the have a simple Theme Music selected from several background musics.The team members decide to make the game simple and have a working game with design patterns.Based on the discussions, the team has decided to refactor the code and finalised on game start and game over images.
+
 ### Week #6<br>
 This week the team has worked on implementing design patterns and integrated code. The game functionality was discussed further and in order to keep the game simple suggestions were given to refactor the code.The team members decide to make the game simple and have a working game with design patterns.
 
