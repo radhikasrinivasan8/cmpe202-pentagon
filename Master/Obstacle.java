@@ -15,6 +15,8 @@ public class Obstacle extends Actor
     
     public int x;
     private Context context;
+     public static int Health=3;
+    blueDiamond b=new blueDiamond();
     
     public Obstacle(){
         context = new Context(new VerticalMovement());
@@ -30,7 +32,16 @@ public class Obstacle extends Actor
             getWorld().removeObject(this);
         }
         else if(isTouching(Brave.class))
-        {
+        {   
+            
+            Health--;
+            if(Health>0)
+            {
+            
+                b.update(Health);
+            }
+            // if Health is zero set game OVER STATE
+            // ELSE PART
             getWorld().removeObject(this);
         }
     }
