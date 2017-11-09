@@ -22,6 +22,7 @@ public class myWorld extends World
     private static final double scrollSpeed = 2.5;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
     public GamePoints gp;
+    private SimpleTimer timer = new SimpleTimer();
     public myWorld()
     {    
     super(1000, 600, 1); 
@@ -49,8 +50,26 @@ public class myWorld extends World
         while(scrollSpeed > 0 && scrollPosition < -picWidth) scrollPosition += picWidth;
         while(scrollSpeed < 0 && scrollPosition > 0) scrollPosition -= picWidth;
         paint(scrollPosition);
+        if(timeElapsed()){
+           timer.mark();
+           Greenfoot.stop(); 
+        }
     }
-    
+    public boolean timeElapsed()
+    {
+       if (timer.millisElapsed() > 30000)
+        {
+            //Code here for firing a new shot
+            
+            return true;
+            
+             // Reset the timer
+        } 
+        else
+        {
+            return false;
+        }
+    }
     private void paint(int position)
     {
         GreenfootImage bg = getBackground();

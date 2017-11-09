@@ -18,14 +18,15 @@ public class Brave extends Actor implements Subject
     GifImage gifImage = new GifImage("frhupdated.gif");
     private int Points=0;
     private ArrayList<scoreObserver> observers = new ArrayList<scoreObserver>() ;
-	GamePoints gp=new GamePoints();
-	public Brave()
-	{
-	Context context = new Context(new VerticalMovement());
-	MeridaAliveState = new MeridaAliveState(this); // * state pattern 1*
-    MeridaLostState = new MeridaLostState(this); // * state pattern 1*
+    GamePoints gp=new GamePoints();
+    private SimpleTimer timer = new SimpleTimer();
+    public Brave()
+    {
+    Context context = new Context(new VerticalMovement());
+    MeridaAliveState = new MeridaAliveState(this); 
+    MeridaLostState = new MeridaLostState(this); 
     MeridaState = MeridaAliveState;
-	}
+    }
     public int getPoints()
     {
     return Points;
@@ -40,14 +41,16 @@ public class Brave extends Actor implements Subject
     {
     observers.add(obj);
     }
-	public  void notifyObservers()
-	{
+    public  void notifyObservers()
+    {
            gp.update(Points);       
-	}
+    }
     public void act() 
     {
         // Add your action code here.
         setImage(gifImage.getCurrentImage());
+        timer.mark();
+        
         trick();
         Points++;
         setPoints(Points);
