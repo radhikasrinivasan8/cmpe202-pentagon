@@ -4,6 +4,11 @@ I am responsible for implementing the Factory Pattern
 ####  UML Diagrams
 I am responsible for implementing WIREFRAME diagrams  </br>
 
+### WEEK-7<br>
+####  XP Core Value - Communication</br>
+
+This week the team discussed the different integration issues each one had and resolved many issues. Apart from this the team discussed to imcorporate sound effects into the game. Each one of us suggested different sound effects and finally the team agreed to proceed with those effects that best suited the theme of the game.
+
 ### WEEK-6<br>
 ####  XP Core Value - Communication</br>
 
