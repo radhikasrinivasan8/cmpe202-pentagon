@@ -30,8 +30,6 @@ Agile Practices Team is Adopting:<br>
 * User Stories.
 * Backlog Grooming.
 
-
-
 ### Week #7
 1.  What did the team do the past week?
 * The team has implemented four design patterns working on the fifth one.
@@ -43,6 +41,7 @@ Agile Practices Team is Adopting:<br>
 * The team is going to implement the remaining design pattern.
 * The team is going to implement the sounds and update the count when the actor collects the diamonds.
 * The team is going to work integrating the design patterns implemented by each team memeber. 
+* The team is going to work on integrating the code together and try refacotoring where ever necessary.
 
 3.  What are the current blockers/challenges the team is facing?
 * Integrating the code done by each team member.
