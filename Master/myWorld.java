@@ -83,9 +83,9 @@ public class myWorld extends World
         redFactory rf = new redFactory();
         yellowFactory yf = new yellowFactory();
         
-        int rnum1 = Greenfoot.getRandomNumber(3);
-        int rnum2 = Greenfoot.getRandomNumber(3);
-        int rnum3 = Greenfoot.getRandomNumber(3);
+        int rnum1 = Greenfoot.getRandomNumber(50);
+        int rnum2 = Greenfoot.getRandomNumber(75);
+        int rnum3 = Greenfoot.getRandomNumber(100);
 
         if(getObjects(Factory.class).size() < 10)
         {
@@ -93,65 +93,64 @@ public class myWorld extends World
             if (rnum1 ==0)
 
             {
-                addObject( gf.makeDiamonds(), 600, getHeight()-100);
-                addObject( yf.makeDiamonds(), 525, getHeight()-100);
+                addObject( gf.makeDiamonds(), getWidth(), getHeight()-30);
+                addObject( yf.makeDiamonds(), getWidth()-150, getHeight()-30);
 
             }
 
             else if(rnum1 == 1 )
             {
-                addObject( yf.makeDiamonds(), 600, getHeight()-100);
+                addObject( yf.makeDiamonds(), getWidth(), getHeight()-30);
 
             }
 
             else if(rnum1 == 2)
             {
 
-                addObject(rf.makeDiamonds(), 600, getHeight()-100);
+                addObject(rf.makeDiamonds(), getWidth(), getHeight()-30);
                 
             }
             
              if (rnum2 ==0)
 
             {
-                addObject( gf.makeDiamonds(), 600, getHeight()-200);
+                addObject( gf.makeDiamonds(), getWidth(), getHeight()-110);
+                addObject( rf.makeDiamonds(), getWidth(), getHeight()-110);
 
             }
 
             else if(rnum2 == 1 )
             {
-                addObject( yf.makeDiamonds(), 600, getHeight()-200 );
-                
+                addObject( gf.makeDiamonds(), getWidth(), getHeight()-110);
 
             }
 
             else if(rnum2 == 2)
             {
 
-                addObject(rf.makeDiamonds(), 600, getHeight()-200);
-                addObject( gf.makeDiamonds(), 525, getHeight()-200);
+                addObject(yf.makeDiamonds(), getWidth(), getHeight()-110);
+                
             }
             
              if (rnum3 ==0)
 
             {
-                addObject( gf.makeDiamonds(), 600, getHeight()-300);
+                addObject( gf.makeDiamonds(), getWidth(), getHeight()-150);
+                addObject( yf.makeDiamonds(), getWidth(), getHeight()-150);
 
             }
 
             else if(rnum3 == 1 )
             {
-                addObject( yf.makeDiamonds(), 600, getHeight()-300 );
-                addObject(rf.makeDiamonds(), 530, getHeight()-300);
-                addObject( yf.makeDiamonds(), 440, getHeight()-300 );
-                addObject(rf.makeDiamonds(), 390, getHeight()-300);
+                addObject( gf.makeDiamonds(), getWidth(), getHeight()-150);
 
             }
 
             else if(rnum3 == 2)
             {
 
-                addObject(rf.makeDiamonds(), 600, getHeight()-300);
+                addObject(yf.makeDiamonds(), getWidth(), getHeight()-150);
+                
             }
            
         }
@@ -188,19 +187,20 @@ public class myWorld extends World
        //addObject(sp1,500,565);
        //sp1.doChange(sp1);
             //addObject(new Obstacle(),970,515);
-            addObject(new spike(), 900, 515);
+          //  addObject(new spike(), 900, 515);
             //addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 303);
         }
         if (x==1)
         {
             //addObject(new spike(), 720, 513);
-            addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 503);
-        }
+        //    addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 503);
+            //  addObject(new Obstacle(),600,400+Greenfoot.getRandomNumber(100));   
+    }
         if (x==2)
         {       
             //addObject(new spike(), 900, 520);
             //addObject(new spike(), 862, 530);
-            addObject(new spike(), 620+Greenfoot.getRandomNumber(200), 503);
+           // addObject(new spike(), 620+Greenfoot.getRandomNumber(200), 503);
             addObject(new Obstacle(),900,475);
         
         }
@@ -211,7 +211,7 @@ public class myWorld extends World
             addObject(new spike(), 800, 502);
             //addObject(new spike(), 902, 513);
             //addObject(new spike(), 794, 563);
-            addObject(new spike(), 750+Greenfoot.getRandomNumber(200), 303);
+          //addObject(new spike(), 750+Greenfoot.getRandomNumber(200), 303);
         }
     
     }}

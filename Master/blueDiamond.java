@@ -12,7 +12,7 @@ public class blueDiamond extends Actor
      * Act - do whatever the bluepoints wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public static int score=0;
+    public static int score=3;
    public void update(int points)
    {
     
@@ -28,6 +28,6 @@ public class blueDiamond extends Actor
     {
         // Add your action code here.
      //   System.out.println(bluep);
-        setImage(new GreenfootImage("Score : "+ getscore() , 24 , Color.BLACK, Color.WHITE));
+        setImage(new GreenfootImage("Health : "+ getscore() , 24 , Color.BLACK, Color.WHITE));
     }    
 }
