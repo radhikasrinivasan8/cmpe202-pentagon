@@ -18,6 +18,7 @@ public class myWorld extends World
     int started=0;
     private GreenfootImage bgImage, bgBase;
     private static final String bgImageName = "a.png";
+    private static final String gameOver = "gameOver.png";
     GreenfootSound bgsound = new GreenfootSound("merida.wav");
     private static final double scrollSpeed = 2.5;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
@@ -51,18 +52,20 @@ public class myWorld extends World
         while(scrollSpeed < 0 && scrollPosition > 0) scrollPosition -= picWidth;
         paint(scrollPosition);
         if(timeElapsed()){
-           timer.mark();
-           Greenfoot.stop(); 
+           //timer.mark()-is set in brave class - begins after the play button is clicked.
+           //code for setting the game over screen along with the end score goes here
+            //setBackground(gameOver);
+           Greenfoot.stop();
+           
         }
     }
     public boolean timeElapsed()
     {
-       if (timer.millisElapsed() > 30000)
+       //Checks if the game has exceeded the time limit of 1 minute
+       if (timer.millisElapsed() > 60000)
         {
-            //Code here for firing a new shot
             
             return true;
-            
              // Reset the timer
         } 
         else

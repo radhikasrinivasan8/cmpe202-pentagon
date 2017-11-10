@@ -20,6 +20,12 @@ public class buttonCancel extends Actor
     public void act() 
     {
         // Add your action code here.
-        //Greenfoot.stop();
+        if (Greenfoot.mouseClicked(this)) {//true if you clicked at this object;
+           //myWorld m = (myWorld) getWorld();
+           //m.removeObject(this);
+           //m.start();
+           Greenfoot.stop();
+           
+        }
     }    
 }

@@ -12,10 +12,9 @@ public class Obstacle extends Actor
      * Act - do whatever the Obstacle wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
     public int x;
     private Context context;
-     public static int Health=3;
+    public static int Health=3;
     blueDiamond b=new blueDiamond();
     
     public Obstacle(){
