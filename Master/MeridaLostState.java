@@ -26,11 +26,11 @@ public class MeridaLostState implements iMeridaState
      
     public void setState()
     {
-        //brave.setState(brave.getBraveDeadState());
+        brave.setState(brave.getMeridaLostState());
     }
     
     public void display()
     {
-        //brave.getWorld().addObject(new FinalBanner("youwin.png"), 500, 125);
+        brave.getWorld().addObject(new GameOverScreen("gameOverSad.png"), 500, 125);
     }
 }

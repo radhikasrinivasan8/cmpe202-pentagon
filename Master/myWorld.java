@@ -21,6 +21,7 @@ public class myWorld extends World
     private static final String gameOver = "gameOver.png";
     GreenfootSound bgsound = new GreenfootSound("merida.wav");
     private static final double scrollSpeed = 2.5;
+    iMeridaState MeridaAliveState, MeridaLostState, MeridaState;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
     public GamePoints gp;
     private SimpleTimer timer = new SimpleTimer();
@@ -55,6 +56,7 @@ public class myWorld extends World
            //timer.mark()-is set in brave class - begins after the play button is clicked.
            //code for setting the game over screen along with the end score goes here
             //setBackground(gameOver);
+           //MeridaState.setState();
            Greenfoot.stop();
            
         }
@@ -62,10 +64,10 @@ public class myWorld extends World
     public boolean timeElapsed()
     {
        //Checks if the game has exceeded the time limit of 1 minute
-       if (timer.millisElapsed() > 60000)
+       if (timer.millisElapsed() > 15000)
         {
-            
-            return true;
+            //timer.mark();
+            return true;           
              // Reset the timer
         } 
         else
@@ -73,6 +75,7 @@ public class myWorld extends World
             return false;
         }
     }
+    
     private void paint(int position)
     {
         GreenfootImage bg = getBackground();
@@ -158,11 +161,6 @@ public class myWorld extends World
            
         }
     }
-    
-    
-    
-  
-    
     public void start()
     {
      //gp=new GamePoints();

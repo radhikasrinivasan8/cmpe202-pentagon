@@ -17,11 +17,13 @@ public class Brave extends Actor implements Subject
     iMeridaState MeridaAliveState, MeridaLostState, MeridaState;
     GifImage gifImage = new GifImage("frhupdated.gif");
     private int Points=0;
+    private World world;
     private ArrayList<scoreObserver> observers = new ArrayList<scoreObserver>() ;
     GamePoints gp=new GamePoints();
     private SimpleTimer timer = new SimpleTimer();
     public Brave()
     {
+    world =   getWorld();
     Context context = new Context(new VerticalMovement());
     MeridaAliveState = new MeridaAliveState(this); 
     MeridaLostState = new MeridaLostState(this); 
@@ -49,8 +51,7 @@ public class Brave extends Actor implements Subject
     {
         // Add your action code here.
         setImage(gifImage.getCurrentImage());
-        timer.mark();
-        
+        timer.mark();        
         trick();
         Points++;
         setPoints(Points);
@@ -98,6 +99,7 @@ public class Brave extends Actor implements Subject
         MeridaState.display();
     }
     void setState(iMeridaState state) {
+        System.out.println("received state"+state);
         this.MeridaState = state;
     }
     iMeridaState getMeridaAliveState()
