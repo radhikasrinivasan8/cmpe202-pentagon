@@ -24,7 +24,7 @@ public class VerticalMovement implements Movebehaviour
     public void movement(Actor a)
     {
          Obstacle z = (Obstacle) a;
-         z.move(-1);
+         z.move(-6);
         
         
     }
