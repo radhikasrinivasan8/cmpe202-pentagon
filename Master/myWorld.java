@@ -24,6 +24,7 @@ public class myWorld extends World
     iMeridaState MeridaAliveState, MeridaLostState, MeridaState;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
     public GamePoints gp;
+    public blueDiamond healthscore;
     private SimpleTimer timer = new SimpleTimer();
     public myWorld()
     {    
@@ -34,8 +35,11 @@ public class myWorld extends World
     {
         setBackground(bgImageName);
         gp=new GamePoints();
-        spawnSpikes();
-        addObject(new GamePoints(), 500, 300);
+     //added health
+     healthscore=new blueDiamond();
+     spawnSpikes();
+        addObject(new GamePoints(), getWidth()-150, 70);
+        addObject(new blueDiamond(), getWidth()-350, 70);
         buttonCancel ButtonCancel = new buttonCancel();
         buttonPlay ButtonPlay = new buttonPlay();
         addObject(ButtonPlay, 500, 500);
