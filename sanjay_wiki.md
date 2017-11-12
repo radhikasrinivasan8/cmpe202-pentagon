@@ -44,7 +44,11 @@ I am responsible for completing the User Story with BDD Scenarios.
 3)some of them already completed and updated in github.Each gave their opinions on the implemented code</br>
 4)The team discussed on the various scenioros where still any design patterns can be implemented everyone gave their opinions.</br>
 
-
+### week7
+1) The team had a meeting on Wednesday .</br>
+2)Everyone implemented their design patterns still trying to make some changes and started their diagrams</br>
+3)some of them already completed and updated in github.Each gave their opinions on the implemented code</br>
+4)The team discussed on the various scenioros where any changes/modifications can be done to the game</br>
 
 IMPLEMENTED OBSERVER DESIGN PATTERN FOR SCOREBOARD IN THE GAME.
 
