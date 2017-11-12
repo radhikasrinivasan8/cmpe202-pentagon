@@ -28,3 +28,7 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Team thought of many design patterns to be included in the code but finalised on 5 design patterns with which we can implement the code easily and eliminated other design patterns as they are feasiblee with our code.
+## Week 6:
+### Eliminating Waste:
+
+* Team had tried different BGMs for the and finalised on a BG music. Team integrated the game code so that there are not any extra development and further development is carried easily. 
