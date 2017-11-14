@@ -30,6 +30,16 @@ Agile Practices Team is Adopting:<br>
 * User Stories.
 * Backlog Grooming.
 
+### Week #8
+1.  What did the team do the past week?
+* The team has worked on implementing the fifth design pattern.
+* The team has delivered a part of the functionality of the game.
+
+2.  What is the team going to do next week?
+
+3.  What are the current blockers/challenges the team is facing?
+* Integrating the code done by each team member.
+
 ### Week #7
 1.  What did the team do the past week?
 * The team has implemented four design patterns working on the fifth one.
