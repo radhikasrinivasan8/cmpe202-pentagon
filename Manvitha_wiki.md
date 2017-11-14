@@ -7,6 +7,9 @@ I am responsible for completing the Use Case diagrams and use case specification
 
 ## XP Core Value - Feedback:
 
+### Week #8<br>
+This week the team is working on the final version of the game and the final stages of updating the design patterns. The team is mostly focussing on refactoring the code. Multiple changes have been recommended by the team. THe recommendations and feedback have been taken into consideration and the team is now working on incorporating the changes.
+
 ### Week #7<br>
 This week the team is still working on implementing a part of the design patterns and mapping it to the game. The team has delivered another part of the functionality of the game - Sounds nad graphics of game. Each team member reviewed the sound effects and provided feedback on the backgorund music and sound effects of the game. Based on the feedback from everyone, the team has decided on the theme music and the images that have to be part of the game.
 
