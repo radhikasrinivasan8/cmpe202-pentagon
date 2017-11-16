@@ -36,6 +36,9 @@ Agile Practices Team is Adopting:<br>
 * The team has delivered a part of the functionality of the game.
 
 2.  What is the team going to do next week?
+* The team is going to work integrating the design patterns implemented by each team memeber. 
+* The team is going to work on integrating the code together and try refacotoring where ever necessary.
+
 
 3.  What are the current blockers/challenges the team is facing?
 * Integrating the code done by each team member.
