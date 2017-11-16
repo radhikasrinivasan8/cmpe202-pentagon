@@ -4,6 +4,11 @@ I am responsible for implementing the Factory Pattern
 ####  UML Diagrams
 I am responsible for implementing WIREFRAME diagrams  </br>
 
+### WEEK-8<br>
+####  XP Core Value - Communication</br>
+
+The team met and discussed the issues each of us had in developing the different functionalities. Each of us gave suggestions to resolve each other's errors. Also we discussed ways to resolve the integration issues. 
+
 ### WEEK-7<br>
 ####  XP Core Value - Communication</br>
 
