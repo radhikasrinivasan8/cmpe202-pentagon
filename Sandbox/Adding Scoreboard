@@ -1,0 +1,119 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
+ 
+public class Crab extends Animal
+{
+    private GreenfootImage image1;
+    private GreenfootImage image2;
+    private int wormsEaten;
+    private CrabWorld crabWorld = null;
+    private ScoreBoard scoreBoard = null;
+     
+    public Crab()
+    {
+        image1 = new GreenfootImage("crab.png");
+        image2 = new GreenfootImage("crab2.png");
+        setImage(image1);
+        wormsEaten = 0;
+    }
+     
+    /**act- includes all methods that allow the crab to perform all actions needed in the game.*/
+    public void act()
+    {
+        checkKeypress();
+        lookForWorm();
+        switchImage();
+    }
+     
+    /**selectImage- allows the crab to select the images that it will need to change between for the switchImage() method.*/
+    public void selectImage()
+    {
+        if (getImage() == image1) 
+        {
+            setImage(image2);
+        }
+        else
+        {
+            setImage(image1);
+        }
+    }
+     
+    /**switchImage- allows the crab to change between images when it moves so that it looks like it's moving.*/
+    public void switchImage()
+    {
+        if (Greenfoot.isKeyDown("up"))
+        {
+        selectImage();
+        }
+        if (Greenfoot.isKeyDown("down"))
+        {
+        selectImage();
+        }
+        if (Greenfoot.isKeyDown("left"))
+        {
+        selectImage();
+        }
+        if (Greenfoot.isKeyDown("right"))
+        {
+        selectImage();
+        }
+    }
+     
+    /**checkKeypress- allows the crab to move and turn in different directions according to the arrows being pressed on the keyboard.*/
+    public void checkKeypress()
+    {
+        if (Greenfoot.isKeyDown("left")) 
+        {
+            turn(-6);
+        }
+        if (Greenfoot.isKeyDown("right")) 
+        {
+            turn(6);
+        }
+        if (Greenfoot.isKeyDown("up"))
+        {
+            move(7);
+        }
+        if (Greenfoot.isKeyDown("down"))
+        {
+            move(-7);
+        }
+    }
+ 
+    /**lookForWorm- allows the crab to eat the worms and add score and wormcounts accordingly.*/
+    public void lookForWorm()
+    {
+        CrabWorld datWorld= (CrabWorld) getWorld();
+         
+        if (canSee(Worm.class))
+        {
+            eat(Worm.class);
+            Greenfoot.playSound("slurp.wav");
+            addScore();
+        }
+    }
+     
+    public void addScore()
+    {
+        if (!getWorld().getObjects(Counter.class).isEmpty())
+        {
+            ((Counter) getWorld().getObjects(Counter.class).get(0))add(1);
+        }
+    }
+     
+    /**setLocation- This code is here so that the Rocks and Trees act as obstacles and the character can't walk through them.*/
+    public void setLocation(int x, int y)
+    {
+        int oldX = getX();
+        int oldY = getY();
+        super.setLocation(x,y);
+        if(!getIntersectingObjects(Rock.class).isEmpty())
+        {
+            super.setLocation(oldX, oldY);
+        }
+        if(!getIntersectingObjects(Tree.class).isEmpty())
+        {
+            super.setLocation(oldX, oldY);
+        }
+    }
+     
+    }
