@@ -39,9 +39,8 @@ Agile Practices Team is Adopting:<br>
 * The team is going to work on the presentation and sprint reports. 
 * The team will complete the UML diagrams
 
-
 3.  What are the current blockers/challenges the team is facing?
-* Integrating the code done by each team member.
+* The team has to finish their respective UML diagrams before presentation day. 
 
 ### Week #7
 1.  What did the team do the past week?
