@@ -1,0 +1,24 @@
+if (object != null)
+{   
+    if (Greenfoot.getRandomNumber(2) == 0)
+    {
+        Greenfoot.playSound("gered.wav");
+    }
+    else
+    {
+        Greenfoot.playSound("gered1.wav");
+     }
+}
+//With only two possibilities, if not the one, then the other (no need for the 'if' after the 'else').
+
+//Even with more than two possible sounds, you can avoid the 'rand' variable:
+
+if (obect != null)
+{
+    switch(Greenfoot.getRandomNumber(3))
+    {
+        case 0:  Greenfoot.playSound("gered.wav"); break;
+        case 1:  Greenfoot.playSound("gered1.wav"); break;
+        case 2:  Greenfoot.playSound("gered2.wav"); break;
+    }
+}
