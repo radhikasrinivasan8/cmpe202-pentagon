@@ -26,7 +26,7 @@ public class HorizontalMovement implements Movebehaviour
     
     public void movement(Actor a)
     {
-        blockObstacle z = (blockObstacle) a;
-        z.move(-1); 
+        blockObstacle z = (blockObstacle) a;     
+         z.move(-1);
         }
 }

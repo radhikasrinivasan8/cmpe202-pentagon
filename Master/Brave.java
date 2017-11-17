@@ -17,18 +17,15 @@ public class Brave extends Actor implements Subject
     iMeridaState MeridaAliveState, MeridaLostState, MeridaState;
     GifImage gifImage = new GifImage("frhupdated.gif");
     private int Points=0;
-    private World world;
     private ArrayList<scoreObserver> observers = new ArrayList<scoreObserver>() ;
-    GamePoints gp=new GamePoints();
-    private SimpleTimer timer = new SimpleTimer();
-    public Brave()
-    {
-    world =   getWorld();
-    Context context = new Context(new VerticalMovement());
-    MeridaAliveState = new MeridaAliveState(this); 
-    MeridaLostState = new MeridaLostState(this); 
+	GamePoints gp=new GamePoints();
+	public Brave()
+	{
+	Context context = new Context(new VerticalMovement());
+	MeridaAliveState = new MeridaAliveState(this); // * state pattern 1*
+    MeridaLostState = new MeridaLostState(this); // * state pattern 1*
     MeridaState = MeridaAliveState;
-    }
+	}
     public int getPoints()
     {
     return Points;
@@ -43,15 +40,14 @@ public class Brave extends Actor implements Subject
     {
     observers.add(obj);
     }
-    public  void notifyObservers()
-    {
+	public  void notifyObservers()
+	{
            gp.update(Points);       
-    }
+	}
     public void act() 
     {
         // Add your action code here.
         setImage(gifImage.getCurrentImage());
-        timer.mark();        
         trick();
         Points++;
         setPoints(Points);
@@ -68,7 +64,7 @@ public class Brave extends Actor implements Subject
         setLocation(getX(), getY()-6);
     }
 }
-
+//commented down button
  if(getY()<550)
         {
     if(Greenfoot.isKeyDown("down"))
@@ -76,30 +72,13 @@ public class Brave extends Actor implements Subject
         setLocation(getX(), getY()+2);
         }
     }
-     if(getX()>50)
-        { 
     
-    if(Greenfoot.isKeyDown("left"))
-        {
-       
-        setLocation(getX()-4, getY());
-       
-        }
-    }
-       
-    if(getX()<950)
-    if(Greenfoot.isKeyDown("right"))
-        {
-       
-        setLocation(getX()+4, getY());
-        }
     } 
     
      public void display() {
         MeridaState.display();
     }
     void setState(iMeridaState state) {
-        System.out.println("received state"+state);
         this.MeridaState = state;
     }
     iMeridaState getMeridaAliveState()

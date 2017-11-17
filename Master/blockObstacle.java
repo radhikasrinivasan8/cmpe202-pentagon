@@ -13,17 +13,44 @@ public class blockObstacle extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    private Context context;
-    
+    private Context context;  
+    private int obstaclePosition;
+    blueDiamond b=new blueDiamond();
     public blockObstacle(){
         context = new Context(new HorizontalMovement());
-        
+    }
+    public void despawning()
+    {
+        obstaclePosition=getX();
+        if (obstaclePosition==0)
+        {
+            getWorld().removeObject(this);
+        }
+        else if(isTouching(Brave.class))
+        {   
+            myWorld.Health--;
+            if(myWorld.Health>0)
+            {
+                //System.out.println("------");
+                b.update(myWorld.Health);
+            }
+            
+            else
+            {
+                b.update(3);
+                myWorld.setHealth();
+                Greenfoot.stop();
+            }
+            // if Health is zero set game OVER STATE
+            // ELSE PART
+            getWorld().removeObject(this);
+        }
     }
     
     public void act() 
     {
         // Add your action code here.
         context.executeMovement(this);
-        
+        despawning();
     }    
 }

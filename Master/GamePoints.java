@@ -15,20 +15,17 @@ public class GamePoints extends Actor implements scoreObserver
    public static int score=0;
    public void update(int points)
    {
-    
     score=points;
     act();
    }
-    
    public int getscore()
    {
        return score;
-    }
-   
+   }
    public void act() 
     {
         //System.out.println(getscore());
         // Add your action code here.
-        setImage(new GreenfootImage("Score : "+ getscore() , 24 , Color.BLACK, Color.WHITE));
+    setImage(new GreenfootImage("Score : "+ getscore() , 24 , Color.BLACK, Color.WHITE));
     }    
 }

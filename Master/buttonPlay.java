@@ -23,7 +23,7 @@ public class buttonPlay extends Actor
            myWorld m = (myWorld) getWorld();
            m.removeObject(this);
            m.start();
-           
+          
         }
     }    
 }

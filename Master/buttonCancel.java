@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import greenfoot.*;
+
 /**
  * Write a description of class buttonCancel here.
  * 
@@ -20,12 +20,5 @@ public class buttonCancel extends Actor
     public void act() 
     {
         // Add your action code here.
-        if (Greenfoot.mouseClicked(this)) {//true if you clicked at this object;
-           //myWorld m = (myWorld) getWorld();
-           //m.removeObject(this);
-           //m.start();
-           Greenfoot.stop();
-           
-        }
     }    
 }

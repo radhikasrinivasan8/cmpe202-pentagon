@@ -15,5 +15,6 @@ public class yellow extends Diamonds
     public  yellow() 
     {
         // Add your action code here.
+     
     }    
 }

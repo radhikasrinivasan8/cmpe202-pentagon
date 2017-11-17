@@ -13,19 +13,19 @@ public class myWorld extends World
      * Constructor for objects of class CrabWorld.
      * 
      */
+    
     private int scrollPosition = 0;
     int x;
     int started=0;
     private GreenfootImage bgImage, bgBase;
     private static final String bgImageName = "a.png";
-    private static final String gameOver = "gameOver.png";
     GreenfootSound bgsound = new GreenfootSound("merida.wav");
-    private static final double scrollSpeed = 2.5;
-    iMeridaState MeridaAliveState, MeridaLostState, MeridaState;
+    private static final double scrollSpeed = 3.5;
+    public static int Health=3;
+    public static int diamondScore=0;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
     public GamePoints gp;
     public blueDiamond healthscore;
-    private SimpleTimer timer = new SimpleTimer();
     public myWorld()
     {    
     super(1000, 600, 1); 
@@ -35,9 +35,9 @@ public class myWorld extends World
     {
         setBackground(bgImageName);
         gp=new GamePoints();
-     //added health
-     healthscore=new blueDiamond();
-     spawnSpikes();
+        //added health
+        healthscore=new blueDiamond();
+        spawnSpikes();
         addObject(new GamePoints(), getWidth()-150, 70);
         addObject(new blueDiamond(), getWidth()-350, 70);
         buttonCancel ButtonCancel = new buttonCancel();
@@ -50,36 +50,25 @@ public class myWorld extends World
         bgBase.drawImage(bgImage, 0, 0);
     
     }
+    public static void setHealth()
+    {
+    Health=3;
+    }
     public void act()
     {
         scrollPosition -= scrollSpeed;
         while(scrollSpeed > 0 && scrollPosition < -picWidth) scrollPosition += picWidth;
         while(scrollSpeed < 0 && scrollPosition > 0) scrollPosition -= picWidth;
         paint(scrollPosition);
-        if(timeElapsed()){
-           //timer.mark()-is set in brave class - begins after the play button is clicked.
-           //code for setting the game over screen along with the end score goes here
-            //setBackground(gameOver);
-           //MeridaState.setState();
-           Greenfoot.stop();
-           
-        }
-    }
-    public boolean timeElapsed()
-    {
-       //Checks if the game has exceeded the time limit of 1 minute
-       if (timer.millisElapsed() > 15000)
-        {
-            //timer.mark();
-            return true;           
-             // Reset the timer
-        } 
-        else
-        {
-            return false;
-        }
     }
     
+    public static int getDiamondScore()
+    {
+    
+    return diamondScore;
+    }
+    
+   
     private void paint(int position)
     {
         GreenfootImage bg = getBackground();
@@ -99,7 +88,6 @@ public class myWorld extends World
 
         if(getObjects(Factory.class).size() < 10)
         {
-
             if (rnum1 ==0)
 
             {
@@ -121,7 +109,7 @@ public class myWorld extends World
                 
             }
             
-             if (rnum2 ==0)
+           if (rnum2 ==0)
 
             {
                 addObject( gf.makeDiamonds(), getWidth(), getHeight()-110);
@@ -142,7 +130,10 @@ public class myWorld extends World
                 
             }
             
-             if (rnum3 ==0)
+            
+            
+            
+           if (rnum3 ==0)
 
             {
                 addObject( gf.makeDiamonds(), getWidth(), getHeight()-150);
@@ -162,9 +153,16 @@ public class myWorld extends World
                 addObject(yf.makeDiamonds(), getWidth(), getHeight()-150);
                 
             }
-           
+            
+            
+            
         }
     }
+    
+    
+    
+  
+    
     public void start()
     {
      //gp=new GamePoints();
@@ -184,8 +182,7 @@ public class myWorld extends World
            if (started==1)
         {
             moreDiamonds();
-            
-        x=Greenfoot.getRandomNumber(8);
+        x=Greenfoot.getRandomNumber(20);
         if (x==0)
         {
        //spikeObstacle sp1=new spikeObstacle(new VerticalBehaviour());
@@ -194,6 +191,7 @@ public class myWorld extends World
             //addObject(new Obstacle(),970,515);
           //  addObject(new spike(), 900, 515);
             //addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 303);
+            addObject(new blockObstacle(),900,450+Greenfoot.getRandomNumber(200));
         }
         if (x==1)
         {
@@ -211,13 +209,12 @@ public class myWorld extends World
         }
         if (x==3)
         {
-           // addObject(new blockObstacle(),580,415);
-            //addObject(new blockObstacle(),150,425);
-            addObject(new spike(), 800, 502);
+            //addObject(new blockObstacle(),580,415);
+            
+          //addObject(new spike(), 800, 502);
             //addObject(new spike(), 902, 513);
             //addObject(new spike(), 794, 563);
           //addObject(new spike(), 750+Greenfoot.getRandomNumber(200), 303);
         }
-    
     }}
 }

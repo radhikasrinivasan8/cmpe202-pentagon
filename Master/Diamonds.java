@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public  class Diamonds extends Actor
+public abstract class Diamonds extends Actor
 {
    
     
@@ -22,22 +22,6 @@ private int velocity = 3;
             setLocation(getX() - velocity, getY());
         }
   
-      public void despawning()
-    {
-        x=getX();
-        
-        if (x==0)
-        {
-            getWorld().removeObject(this);
-        }
-        else if(isTouching(Brave.class))
-        {
-            getWorld().removeObject(this);
-            Greenfoot.playSound("bell_3.wav");
-           
-        }
-    }  
-        
         
     public void act() 
     {
@@ -47,10 +31,8 @@ private int velocity = 3;
          {
              getWorld().removeObject(this);
         }
-      despawning();  
+        
     
     } 
-    
-  
 }
     

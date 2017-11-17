@@ -12,39 +12,39 @@ public class Obstacle extends Actor
      * Act - do whatever the Obstacle wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
     public int x;
     private Context context;
-    public static int Health=3;
-    blueDiamond b=new blueDiamond();
     
+    blueDiamond b=new blueDiamond();
     public Obstacle(){
         context = new Context(new VerticalMovement());
-        
     }
-    
     public void despawning()
     {
         x=getX();
-        
         if (x==0)
         {
             getWorld().removeObject(this);
         }
         else if(isTouching(Brave.class))
         {   
-            
-            Health--;
-            if(Health>0)
+            myWorld.Health--;
+            if(myWorld.Health>0)
             {
-            
-                b.update(Health);
+                b.update(myWorld.Health);
+            }
+            else
+            {
+              b.update(3);
+              myWorld.setHealth();
+            Greenfoot.stop();
             }
             // if Health is zero set game OVER STATE
             // ELSE PART
             getWorld().removeObject(this);
         }
     }
-    
     public void act() 
     {
         // Add your action code here.

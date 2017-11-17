@@ -14,8 +14,7 @@ public abstract class Factory extends Actor
     public abstract Diamonds makeDiamonds();
     
     
-        
-      
+ 
     }
     
 

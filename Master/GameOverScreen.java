@@ -17,6 +17,6 @@ public class GameOverScreen extends Actor
     }
     public void act() 
     {
-        //GifImage gifImage = new GifImage("Angry-Merida-forGameOver.gif");
+        GifImage gifImage = new GifImage("Angry-Merida-forGameOver.gif");
     }    
 }
