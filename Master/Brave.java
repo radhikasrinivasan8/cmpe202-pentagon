@@ -21,7 +21,7 @@ public class Brave extends Actor implements Subject
 	GamePoints gp=new GamePoints();
 	public Brave()
 	{
-	Context context = new Context(new VerticalMovement());
+	Context context = new Context(new FastMovement());
 	MeridaAliveState = new MeridaAliveState(this); // * state pattern 1*
     MeridaLostState = new MeridaLostState(this); // * state pattern 1*
     MeridaState = MeridaAliveState;

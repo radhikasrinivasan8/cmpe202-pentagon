@@ -185,7 +185,7 @@ public class myWorld extends World
            if (started==1)
         {
             moreDiamonds();
-        x=Greenfoot.getRandomNumber(20);
+        x=Greenfoot.getRandomNumber(5);
         if (x==0)
         {
        //spikeObstacle sp1=new spikeObstacle(new VerticalBehaviour());

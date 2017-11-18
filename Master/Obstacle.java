@@ -18,7 +18,7 @@ public class Obstacle extends Actor
     
     blueDiamond b=new blueDiamond();
     public Obstacle(){
-        context = new Context(new VerticalMovement());
+        context = new Context(new FastMovement());
     }
     public void despawning()
     {
