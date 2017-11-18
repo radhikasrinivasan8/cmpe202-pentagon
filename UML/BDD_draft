@@ -1,0 +1,19 @@
+Story: Player plays the Brave game
+As a player I want to play the Brave game by clicking on the play button. 
+Scenario 1:Player starts the game by clicking the play button and enters the game world.
+Given player will easily see that horse is running 
+and the player can see the diamond score and health on the game screen
+when player click up arrow button horse changes direction and move leftwards.
+
+Scenario 2:Player can collect the diamonds which are in the path.
+Given player can move the horse freely by clicking up and down can collect the diamonds on his way
+and collect the three type of diamonds
+when player collects the diamonds the diamond score is incremented by one on the game screen.
+and player can see the total diamonds  collected score on the screen.
+
+Scenario 3: Player should be aware of obstacle on his way.
+Given player can collect the diamonds 
+and can move freely
+when player touches the obstacle brave health is decremented by one
+and player can see the updated health score on the game screen. 
+  
