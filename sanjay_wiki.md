@@ -52,6 +52,15 @@ I am responsible for completing the User Story with BDD Scenarios.
 
 IMPLEMENTED OBSERVER DESIGN PATTERN FOR SCOREBOARD IN THE GAME.
 
+### week8
+1) The team had a meeting in this week .</br>
+2)Everyone implemented their design patterns and making necessary changes to the game to make it work perfect</br>
+3)some of them already completed and updated in github.Each gave their opinions on the implemented code</br>
+4)The team discussed on the various scenioros where any changes/modifications can be done to the game</br>
+5)	If any of the team members are being silent without sharing his/her thoughts others making the team member to engage in the conversation or asking them to give their opinions.
+
+
+CREATED BDD USER STRORIES AND UPDATED HEALTH ON THE GAME SCREEN
 
 
 
