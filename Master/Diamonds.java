@@ -21,18 +21,28 @@ private int velocity = 3;
         {
             setLocation(getX() - velocity, getY());
         }
-  
-        
+  public void despawningdiamonds()
+    {
+        x=getX();
+        if (x==0)
+        {
+            getWorld().removeObject(this);
+        }
+        else if(isTouching(Brave.class))
+        {   
+            myWorld.diamondScore++;
+            getWorld().removeObject(this);
+        }
+    }
+          
     public void act() 
     {
     moveLeft();
-    
-    if (getX() <= outOfBoundary)
-         {
-             getWorld().removeObject(this);
-        }
-        
-    
+    despawningdiamonds();
+    //if (getX() <= outOfBoundary)
+        // {
+       //      getWorld().removeObject(this);
+     //   }
     } 
 }
     

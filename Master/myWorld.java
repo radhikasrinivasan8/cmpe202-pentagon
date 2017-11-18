@@ -40,6 +40,8 @@ public class myWorld extends World
         spawnSpikes();
         addObject(new GamePoints(), getWidth()-150, 70);
         addObject(new blueDiamond(), getWidth()-350, 70);
+        addObject(new DiamondScore(), getWidth()-550, 70);
+        
         buttonCancel ButtonCancel = new buttonCancel();
         buttonPlay ButtonPlay = new buttonPlay();
         addObject(ButtonPlay, 500, 500);
@@ -170,6 +172,7 @@ public class myWorld extends World
      moreDiamonds();
      //System.out.println("IN SPasdasIKE");
      started=1;
+     diamondScore=0;
      bgsound.playLoop();
      addObject(new spawner(),0,0);
      addObject(new Brave(),135,520);

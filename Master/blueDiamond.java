@@ -15,7 +15,7 @@ public class blueDiamond extends Actor
    public static int score=3;
    public void update(int points)
    {
-    System.out.println("asdasd");
+    //System.out.println("asdasd");
     score=points;
     act();
    }
