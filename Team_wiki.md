@@ -34,10 +34,11 @@ Agile Practices Team is Adopting:<br>
 1.  What did the team do the past week?
 * The team has worked on implementing the fifth design pattern.
 * The team has delivered a part of the functionality of the game.
+* The team has worked on refactoring the code and integrating the patterns together.
 
 2.  What is the team going to do next week?
 * The team is going to work on the presentation and sprint reports. 
-* The team will complete the UML diagrams
+* The team will complete the UML diagrams.
 
 3.  What are the current blockers/challenges the team is facing?
 * The team has to finish their respective UML diagrams before presentation day. 
