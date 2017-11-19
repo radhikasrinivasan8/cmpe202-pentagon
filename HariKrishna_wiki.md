@@ -6,6 +6,9 @@ I am responsible for completing the Activity diagrams.
 
 ### XP Core Value - Simplicity
 
+### Week #8<br>
+The team has completed working on all the functionalities of the game and spent the week on refactoring the code removing unnecessary things from the code and making it simple to understand.The team also faced some difficulties while merging the code and respective patterns together and Github made it simple to integrate the code. The team now has a working game with simple implmentation.
+
 ### Week #7<br>
 This week the team has worked on implementing design patterns and integrated code.Team decided on the have a simple Theme Music selected from several background musics.The team members decide to make the game simple and have a working game with design patterns.Based on the discussions, the team has decided to refactor the code and finalised on game start and game over images.
 
