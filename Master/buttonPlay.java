@@ -20,9 +20,13 @@ public class buttonPlay extends Actor
     public void act() 
     {
         if (Greenfoot.mouseClicked(this)) {//true if you clicked at this object;
+           System.out.println("play clicked");
            myWorld m = (myWorld) getWorld();
            m.removeObject(this);
            m.start();
+           System.out.println("Timer did not start");
+	       m.timer.mark();    
+	       System.out.println("Timer start");
           
         }
     }    

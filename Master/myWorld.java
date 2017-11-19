@@ -25,7 +25,9 @@ public class myWorld extends World
     public static int diamondScore=0;
     private static final int picWidth = (new GreenfootImage(bgImageName)).getWidth();
     public GamePoints gp;
-    public blueDiamond healthscore;
+    public static blueDiamond healthscore;
+    public static SimpleTimer timer = new SimpleTimer();
+    public static Brave brave = new Brave();
     public myWorld()
     {    
     super(1000, 600, 1); 
@@ -50,7 +52,47 @@ public class myWorld extends World
         bgImage = new GreenfootImage(getBackground());
         bgBase = new GreenfootImage(picWidth, getHeight());
         bgBase.drawImage(bgImage, 0, 0);
+        brave.setState(brave.MeridaAliveState);
     
+    }
+    public boolean timeElapsed()
+	{
+		 //Checks if the game has exceeded the time limit of 1 minute
+		 if (timer.millisElapsed() > 30000)
+		  {
+		      //timer.mark();
+		   System.out.println("Timer True:" + timer.millisElapsed());
+		   stopGame();
+		      return true;           
+		       // Reset the timer
+		  } 
+		  else
+		  {
+		  	//System.out.println("Timer False:" + timer.millisElapsed());
+		      //
+		      return false;
+		  }
+	}
+    public static void stopGame(){
+        if(Health < 1) {
+        	System.out.println("No health - game end");
+        	brave.setState(brave.MeridaLostState);
+        	brave.display();
+        	//bgImageName = "block.jpg";
+        }
+        	
+        else {
+        	System.out.println("Alive and timer end");
+        	brave.display();
+        	//bgImageName = "greendiamond.jpg";
+        }
+        System.out.println("Before Greenfoot stop");
+        Greenfoot.stop();
+        System.out.println("After Greenfoot stop");
+        setHealth();
+        healthscore.update(myWorld.Health);
+        System.out.println("Health After Game end: "+Health);
+        timer.lastMark = 0;
     }
     public static void setHealth()
     {
@@ -62,6 +104,14 @@ public class myWorld extends World
         while(scrollSpeed > 0 && scrollPosition < -picWidth) scrollPosition += picWidth;
         while(scrollSpeed < 0 && scrollPosition > 0) scrollPosition -= picWidth;
         paint(scrollPosition);
+        if(timeElapsed()){
+          System.out.println("Time end. Game end.");
+          //code for setting the game over screen along with the end score goes here
+           //setBackground(gameOver);
+          //MeridaState.setState();
+          //Greenfoot.stop();
+          stopGame();
+        }
     }
     
     public static int getDiamondScore()
@@ -175,7 +225,7 @@ public class myWorld extends World
      diamondScore=0;
      bgsound.playLoop();
      addObject(new spawner(),0,0);
-     addObject(new Brave(),135,520);
+     addObject(brave,135,520);
     }
     public void spawnSpikes()
     {

@@ -75,11 +75,13 @@ public class Brave extends Actor implements Subject
     
     } 
     
-     public void display() {
+    public void display() {
         MeridaState.display();
     }
     void setState(iMeridaState state) {
+    	
         this.MeridaState = state;
+        System.out.println("State set to: "+this.MeridaState);
     }
     iMeridaState getMeridaAliveState()
     {

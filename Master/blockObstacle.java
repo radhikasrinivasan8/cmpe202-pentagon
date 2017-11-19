@@ -37,9 +37,12 @@ public class blockObstacle extends Actor
             
             else
             {
-                b.update(3);
-                myWorld.setHealth();
-                Greenfoot.stop();
+            	System.out.println("health is " + myWorld.Health);
+                //b.update(3);
+                //myWorld.setHealth();
+                //Greenfoot.stop();
+                System.out.println("health is "+ myWorld.Health);
+                myWorld.stopGame();
             }
             // if Health is zero set game OVER STATE
             // ELSE PART

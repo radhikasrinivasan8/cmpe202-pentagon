@@ -32,6 +32,7 @@ public class MeridaAliveState implements iMeridaState
     
     public void display()
     {
-        //brave.getWorld().addObject(new FinalBanner("youwin.png"), 500, 125);
+    	System.out.println("Timer end State- happy banner");
+        brave.getWorld().addObject(new GameOverScreen("gameOverHappy.jpeg"),500,300);
     }
 }

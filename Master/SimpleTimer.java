@@ -33,7 +33,7 @@
  */
 public class SimpleTimer
 {
-    private long lastMark = System.currentTimeMillis();
+    public long lastMark = 0;
     
     /**
      * Marks the current time.  You can then in future call

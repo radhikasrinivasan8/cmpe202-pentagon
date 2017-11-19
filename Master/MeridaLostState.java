@@ -31,6 +31,7 @@ public class MeridaLostState implements iMeridaState
     
     public void display()
     {
-        //brave.getWorld().addObject(new FinalBanner("youwin.png"), 500, 125);
+    	System.out.println("Health end State- happy banner");
+    	brave.getWorld().addObject(new GameOverScreen("Merida-lost.gif"), 500, 125);
     }
 }
