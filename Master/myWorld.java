@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class CrabWorld here.
+ 
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -37,7 +37,6 @@ public class myWorld extends World
     {
         setBackground(bgImageName);
         gp=new GamePoints();
-        //added health
         healthscore=new blueDiamond();
         spawnSpikes();
         addObject(new GamePoints(), getWidth()-150, 70);
@@ -60,38 +59,37 @@ public class myWorld extends World
 		 //Checks if the game has exceeded the time limit of 1 minute
 		 if (timer.millisElapsed() > 30000)
 		  {
-		      //timer.mark();
-		   System.out.println("Timer True:" + timer.millisElapsed());
+		     
+		   
 		   stopGame();
 		      return true;           
-		       // Reset the timer
+		      
 		  } 
 		  else
 		  {
-		  	//System.out.println("Timer False:" + timer.millisElapsed());
-		      //
+		  	
 		      return false;
 		  }
 	}
     public static void stopGame(){
         if(Health < 1) {
-        	System.out.println("No health - game end");
+        	
         	brave.setState(brave.MeridaLostState);
         	brave.display();
-        	//bgImageName = "block.jpg";
+        	
         }
         	
         else {
-        	System.out.println("Alive and timer end");
+        	
         	brave.display();
-        	//bgImageName = "greendiamond.jpg";
+        	
         }
-        System.out.println("Before Greenfoot stop");
+       
         Greenfoot.stop();
-        System.out.println("After Greenfoot stop");
+       
         setHealth();
         healthscore.update(myWorld.Health);
-        System.out.println("Health After Game end: "+Health);
+        
         timer.lastMark = 0;
     }
     public static void setHealth()
@@ -105,11 +103,6 @@ public class myWorld extends World
         while(scrollSpeed < 0 && scrollPosition > 0) scrollPosition -= picWidth;
         paint(scrollPosition);
         if(timeElapsed()){
-          System.out.println("Time end. Game end.");
-          //code for setting the game over screen along with the end score goes here
-           //setBackground(gameOver);
-          //MeridaState.setState();
-          //Greenfoot.stop();
           stopGame();
         }
     }
@@ -230,44 +223,23 @@ public class myWorld extends World
     public void spawnSpikes()
     {
         
-       // addObject(new blockObstacle(),0,460);
-        //System.out.println("IN SPIKE");
+    
            if (started==1)
         {
             moreDiamonds();
         x=Greenfoot.getRandomNumber(5);
         if (x==0)
         {
-       //spikeObstacle sp1=new spikeObstacle(new VerticalBehaviour());
-       //addObject(sp1,500,565);
-       //sp1.doChange(sp1);
-            //addObject(new Obstacle(),970,515);
-          //  addObject(new spike(), 900, 515);
-            //addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 303);
+     
             addObject(new blockObstacle(),900,450+Greenfoot.getRandomNumber(200));
         }
-        if (x==1)
-        {
-            //addObject(new spike(), 720, 513);
-        //    addObject(new spike(), 700+Greenfoot.getRandomNumber(200), 503);
-            //  addObject(new Obstacle(),600,400+Greenfoot.getRandomNumber(100));   
-    }
+      
         if (x==2)
         {       
-            //addObject(new spike(), 900, 520);
-            //addObject(new spike(), 862, 530);
-           // addObject(new spike(), 620+Greenfoot.getRandomNumber(200), 503);
+           
             addObject(new Obstacle(),900,475);
         
         }
-        if (x==3)
-        {
-            //addObject(new blockObstacle(),580,415);
-            
-          //addObject(new spike(), 800, 502);
-            //addObject(new spike(), 902, 513);
-            //addObject(new spike(), 794, 563);
-          //addObject(new spike(), 750+Greenfoot.getRandomNumber(200), 303);
-        }
+       
     }}
 }
