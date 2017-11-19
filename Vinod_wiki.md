@@ -1,3 +1,7 @@
+### UML diagram:
+I am responsible for drawing the sequence diagram for the game.
+### Design Pattern:
+I chose to implement command pattern in the game.
 ## Week 1:
 ### Core Value: Eliminating Waste
 
@@ -28,7 +32,13 @@ Will choose after design pattern class
 ### Eliminating Waste:
 
 * Team thought of many design patterns to be included in the code but finalised on 5 design patterns with which we can implement the code easily and eliminated other design patterns as they are feasiblee with our code.
-## Week 6:
+## Week 7:
 ### Eliminating Waste:
 
 * Team had tried different BGMs for the and finalised on a BG music. Team integrated the game code so that there are not any extra development and further development is carried easily. 
+## Week 8:
+### Eliminating Waste:
+
+* Team had integrated all the code, for eliminating the effort of integrating used github, it made the job easy for integrating. While integrating team eliminated unwanted code and kept the code simple to implement the required functionalities.
+
+
