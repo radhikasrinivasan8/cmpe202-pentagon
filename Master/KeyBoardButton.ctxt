@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=KeyBoardButton
+comment1.params=newCommand
+comment1.target=KeyBoardButton(Command)
+comment2.params=
+comment2.target=void\ press()
+numComments=3

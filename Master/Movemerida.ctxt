@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Movemerida
+comment1.params=x\ y\ b
+comment1.target=Movemerida(int,\ int,\ Brave)
+comment2.params=
+comment2.target=void\ moveUp()
+comment3.params=
+comment3.target=void\ moveDown()
+comment4.params=
+comment4.target=void\ moveFront()
+comment5.params=
+comment5.target=void\ moveBack()
+numComments=6
