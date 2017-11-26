@@ -1,5 +1,6 @@
 Story: Player plays the Brave game
 As a player I want to play the Brave game by clicking on the play button. 
+
 Scenario 1:Player starts the game by clicking the play button and enters the game world.
 Given player will easily see that horse is running 
 and the player can see the diamond score and health on the game screen
@@ -16,4 +17,10 @@ Given player can collect the diamonds
 and can move freely
 when player touches the obstacle brave health is decremented by one
 and player can see the updated health score on the game screen. 
+
+Scenario 4: Player should be aware of time while playing.
+Given player can play the game
+and can move freely
+when the time reaches 2 minutes the game is completed
+and player will be seen the game over screen.
   
